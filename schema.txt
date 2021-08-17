@@ -1,0 +1,36 @@
+#Shopper
+
+- Product
+    - Categories
+    - Variations
+
+- Category
+    - Products
+
+- Order
+    - Order Items
+
+- Order Items 
+    - Products
+
+# Models
+- Product  
+    - Title
+    - Description
+    - Price
+
+- ProductVariant
+    - Title
+    - Price
+
+- Category
+    - Title
+
+- Order 
+    - First Name
+    - Last Name
+    - Sub Total
+
+- Order Item
+    - Quantity
+    - Price
